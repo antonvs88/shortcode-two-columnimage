@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-shortcode-starter
+module github.com/antonvs88/wowchemy-shortcode-twocolumnimage
 
 go 1.15
