@@ -1,17 +1,11 @@
 # Wowchemy Shortcode Starter Template
 
-**Looking to build and publish a [Wowchemy](https://wowchemy.com) shortcode that doesn’t exist yet?**
-
-Unsure if there's already a relevant shortcode? [Explore](https://wowchemy.com/docs/writing-markdown-latex/) the existing shortcodes.
-
-_[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio, generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
-
-## 👉 Core Concepts
+## Core Concepts
 
 - Each Wowchemy shortcode consists of an HTML file
 - You may use [Go Templating](https://gohugo.io/templates/introduction/), [shortcode parameters](https://gohugo.io/content-management/shortcodes/), and [Bootstrap](https://getbootstrap.com/docs/4.5/layout/grid/) layouts to design the shortcode
 
-## 🧑‍🎨 Create a Shortcode
+## Create a Shortcode
 
 1. Click the [_Use This Template_](https://github.com/wowchemy/wowchemy-shortcode-starter/generate) button on GitHub
    1. Name your repository `wowchemy-shortcode-<SHORTCODE-NAME>` where `<SHORTCODE-NAME>` is an appropriate name for your shortcode
@@ -37,7 +31,7 @@ Say your GitHub username is `pikachu` and you wish to create a shortcode named `
 1. We customize the HTML in `github_pikachu_pokemon.html`
 1. We add the shortcode to our site and share the shortcode with the community following the guide below
 
-## 🌈 Add the Shortcode to your Site
+## Add the Shortcode to your Site
 
 1. Install your shortcode in your site by referencing it at the bottom of your `config/_defaults/config.toml`:
    ```toml
@@ -62,7 +56,3 @@ Say your GitHub username is `pikachu` and you wish to create a shortcode named `
 
    {{% github_pikachu_pokemon %}}Content to *process*.{{% /github_pikachu_pokemon %}}
    ```
-
-## 📢 Share your Shortcode
-
-Share your shortcode with the community on [Discord](https://discord.gg/z8wNYzb) and [Twitter](https://twitter.com/intent/tweet?text=I%27m%20creating%20a%20beautiful%20website%20shortcode%20using%20the%20free%20%E2%9D%A4%EF%B8%8F%2C%20open%20source%20%40wowchemy%20Website%20Builder%20for%20%40GoHugoIO%20by%20%40GeorgeCushen%20%E2%9C%A8%20Have%20some%20feedback%3F%20Please%20comment%20%F0%9F%A4%97&hashtags=MadeWithWowchemy&url=https://wowchemy.com/).
